@@ -1,0 +1,50 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    android:background="#EBEAE2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120px"
+        android:text="ARITHMETIC OPERTIONS"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:textColor="#142AB4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Largest Number"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="#B596ED"
+        android:layout_margin="20px"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/lar"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smallest Number"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="#B596ED"
+        android:layout_margin="20px"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:id="@+id/small"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Even or Odd"
+        android:layout_margin="20px"
+        android:textAllCaps="false"
+        android:background="#B596ED"
+        android:textSize="20dp"
+        android:id="@+id/evenodd"/>
+</LinearLayout>
